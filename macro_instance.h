@@ -1,22 +1,22 @@
-#ifndef __MACRO_INSTANCE_H__
+ï»¿#ifndef __MACRO_INSTANCE_H__
 #define __MACRO_INSTANCE_H__
 // lrhnfs@gmail.com
 
 /*
  // One kind of C++ Singlton Implementation
- // C++µ¥ÀıµÄÒ»ÖÖÊµÏÖ·½Ê½
+ // C++å•ä¾‹çš„ä¸€ç§å®ç°æ–¹å¼
 
  // Modify from MyGUI
- // ĞŞ¸Ä×Ô MyGUI
+ // ä¿®æ”¹è‡ª MyGUI
 
  // Get instance pointer by the static methord "GetIns()"
- // Í¨¹Ø¾²Ì¬·½·¨ GetIns() »ñÈ¡ÀàµÄÊµÀıÖ¸Õë
+ // é€šå…³é™æ€æ–¹æ³• GetIns() è·å–ç±»çš„å®ä¾‹æŒ‡é’ˆ
 
  // Caution! Before use GetIns(), Please Instantiate the class first.
- // ×¢: Ê¹ÓÃ GetIns() Ç°, ÇëÏÈÊµÀı»¯¸ÃÀà
+ // æ³¨: ä½¿ç”¨ GetIns() å‰, è¯·å…ˆå®ä¾‹åŒ–è¯¥ç±»
 
  // Example:
- // Àı×Ó:
+ // ä¾‹å­:
 
  // scene_manager.h
  class SceneManager
@@ -33,13 +33,13 @@
  {
     SceneManager* scene_manager = new SceneManager;
 
-    // assert error [¶ÏÑÔ±¨´í]
+    // assert error [æ–­è¨€æŠ¥é”™]
     scene_manager = new SceneManager;
  }
  // ...
  void OtherMethord()
  {
-    // Get instance pointer by GetIns() [Í¨¹ı¾²Ì¬·½·¨»ñÈ¡ÊµÀıÖ¸Õë]
+    // Get instance pointer by GetIns() [é€šè¿‡é™æ€æ–¹æ³•è·å–å®ä¾‹æŒ‡é’ˆ]
     SceneManager* scene_manager = SceneManager::GetIns();
     // ...
  }
