@@ -1,3 +1,4 @@
+
 ﻿#ifndef __MACRO_INSTANCE_H__
 #define __MACRO_INSTANCE_H__
 // lrhnfs@gmail.com
