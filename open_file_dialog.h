@@ -1,7 +1,7 @@
-#ifndef OPEN_FILE_DIALOG_H_
+ï»¿#ifndef OPEN_FILE_DIALOG_H_
 #define OPEN_FILE_DIALOG_H_
 // lrhnfs@gmail.com [2011/5/25 YMD]
-// windows ÏÂµÄ´ò¿ª/±£´æÎÄ¼ş¶Ô»°¿ò
+// windows ä¸‹çš„æ‰“å¼€/ä¿å­˜æ–‡ä»¶å¯¹è¯æ¡†
 // example:
 //  std::cout << ShowOpenFileDialog() << std::endl;
 //  std::cout << ShowSaveFileDialog() << std::endl;
@@ -10,7 +10,7 @@
 #include <string>
 #include <Windows.h>
 
-// ´ò¿ªÎÄ¼ş¶Ô»°¿ò
+// æ‰“å¼€æ–‡ä»¶å¯¹è¯æ¡†
 std::string ShowOpenFileDialog()
 {
   std::string sPath;
@@ -32,7 +32,7 @@ std::string ShowOpenFileDialog()
   return sPath;
 }
 
-// ±£´æÎÄ¼ş¶Ô»°¿ò
+// ä¿å­˜æ–‡ä»¶å¯¹è¯æ¡†
 std::string ShowSaveFileDialog()
 {
   std::string sPath;
