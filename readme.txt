@@ -12,4 +12,5 @@
    Windows 下的 OpenFileDialog
    [OpenFileDialog on Windows platform]
    
-4. ... 待加 ...   
+4. long_shift_test.cpp
+   visual studio 2005 环境下有符号 long 类型的移位测试
