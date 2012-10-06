@@ -14,3 +14,5 @@
    
 4. long_shift_test.cpp
    visual studio 2005 环境下有符号 long 类型的移位测试
+
+test modify
