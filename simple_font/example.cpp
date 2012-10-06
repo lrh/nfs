@@ -3,7 +3,6 @@
 // this is an example to show how the class Font used.
 // but, it can not run well here.
 
-common::Font kFont;
 
 void RenderFunc(float x, float y, int align, const char* c_str)
 {
@@ -13,6 +12,9 @@ void RenderFunc(float x, float y, int align, const char* c_str)
 int main()
 {
 	kFont.set_func_render(RenderFunc); // set render font function;
+	
+	// init game
+	// do game loop
 }
 
 void OnGameUpdate(float delta)
